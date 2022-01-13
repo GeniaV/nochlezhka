@@ -1,0 +1,8 @@
+.footer__background_white {
+  background-color: #FFD400;
+}
+@media screen and (min-width: 768px) {
+  .footer__background_white {
+    background-color: #FCFAF7;
+  }
+}

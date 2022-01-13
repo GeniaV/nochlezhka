@@ -1,4 +1,4 @@
-.thanks-screen {
+.main-section-screen {
   min-height: 632px;
   background-color: #7100FF;
   background-position: right;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .thanks-screen {
+  .main-section-screen {
     min-height: 560px;
     flex-direction: column;
     margin-bottom: 20px;
