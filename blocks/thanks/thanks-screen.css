@@ -9,7 +9,6 @@
   align-items: center;
   align-content: flex-start;
   flex-direction: row-reverse;
-  max-width: 1440px;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,4 +1,4 @@
-.thanks__subtitle {
+.main-screen__subtitle {
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
@@ -6,7 +6,7 @@
   margin: 20px 0;
 }
 @media screen and (max-width: 600px) {
-  .thanks__subtitle {
+  .main-screen__subtitle {
     font-size: 20px;
     line-height: 24px;
     max-width: 420px;
