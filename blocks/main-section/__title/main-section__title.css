@@ -1,4 +1,4 @@
-.main-screen__title {
+.main-section__title {
   font-weight: 500;
   font-size: 48px;
   line-height: 52px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .main-screen__title {
+  .main-section__title {
     font-size: 32px;
     line-height: 36px;
     max-width: 420px;

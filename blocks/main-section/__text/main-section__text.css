@@ -1,11 +1,11 @@
-.thanks__text {
+.main-section__text {
   display: flex;
   flex-direction: column;
   width: 33.5%;
   margin: auto 0;
 }
 @media screen and (max-width: 600px) {
-  .thanks__text {
+  .main-section__text {
     width: 88%;
     margin: 35px;
   }
