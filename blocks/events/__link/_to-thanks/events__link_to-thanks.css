@@ -1,0 +1,15 @@
+.events__link_to-thanks {
+  margin: 0;
+  padding: 12px 24px;
+  width: 105px;
+  color: #FCFAF7;
+  background-color: #7100FF;
+  border: 2px solid #7100FF;
+}
+
+@media screen and (max-width: 700px) {
+  .events__link_to-thanks {
+    padding: 10px 25px;
+    margin-top: 5px;
+  }
+}
