@@ -1,0 +1,5 @@
+.form__select-item_checked {
+  background-image: url(../../../../images/form/checked_black.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 50% right 24px;
+}

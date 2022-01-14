@@ -1,0 +1,20 @@
+.form__select-item {
+  box-sizing: border-box;
+  padding: 12px 24px;
+  color: #3b3748;
+  cursor: pointer;
+  width: 100%;
+  text-align: start;
+}
+
+.form__select-item:hover {
+  background-color: #ebe9ed;
+}
+
+.form__select-item:active {
+  background-color: #7100ff;
+  color: #fff;
+  background-image: url(../../../images/form/checked.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 50% right 24px;
+}

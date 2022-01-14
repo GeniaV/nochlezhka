@@ -1,0 +1,8 @@
+.form__radio {
+  display: none;
+}
+
+.form__radio:checked + .form__radio-icon {
+  display: block;
+  background-image: url(../../../../images/form/radio_active.svg);
+}
