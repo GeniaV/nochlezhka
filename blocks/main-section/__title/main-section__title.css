@@ -1,16 +1,14 @@
 .main-section__title {
+  margin: 0 0 16px;
   font-weight: 500;
   font-size: 48px;
   line-height: 52px;
-  color: white;
-  margin: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 460px) {
   .main-section__title {
     font-size: 32px;
     line-height: 36px;
-    max-width: 420px;
-    margin-top: 10px;
+    margin-bottom: 12px;
   }
 }

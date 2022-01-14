@@ -1,12 +1,11 @@
 .main-section__text {
-  display: flex;
-  flex-direction: column;
-  width: 33.5%;
-  margin: auto 0;
+  width: 100%;
+  max-width: 420px;
+  margin-right: 40px;
 }
-@media screen and (max-width: 600px) {
+
+@media (max-width: 880px) {
   .main-section__text {
-    width: 88%;
-    margin: 35px;
+    margin-right: 0;
   }
 }

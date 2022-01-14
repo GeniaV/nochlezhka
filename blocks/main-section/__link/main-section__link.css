@@ -1,0 +1,15 @@
+.main-section__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 12px 24px;
+  border-radius: 26px;
+}
+
+@media (max-width: 880px) {
+  .main-section__link {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 28px;
+  }
+}
