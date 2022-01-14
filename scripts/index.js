@@ -182,3 +182,8 @@ donateFormElement.addEventListener('submit', (evt) => {
   closePopup(popupDonate);
   donateFormElement.reset();
 });
+
+inputSum.addEventListener("change", function (event) {
+  if (this.value < 1) this.value = 1;
+  else this.value;
+})
