@@ -1,0 +1,11 @@
+.main-section__text {
+  width: 100%;
+  max-width: 420px;
+  margin-right: 40px;
+}
+
+@media (max-width: 880px) {
+  .main-section__text {
+    margin-right: 0;
+  }
+}
