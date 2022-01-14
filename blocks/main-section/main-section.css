@@ -1,0 +1,13 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 26px;
+}
+
+@media (max-width: 880px) {
+  .main-section {
+    flex-direction: column-reverse;
+    padding: 40px 26px;
+  }
+}
