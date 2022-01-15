@@ -180,6 +180,25 @@ const donateFormElement = document.querySelector('.popup__donate-form');
 donateFormElement.addEventListener('submit', (evt) => {
   evt.preventDefault();
   closePopup(popupDonate);
+
+  const donateValues = {};
+  const userEmail = donateFormElement.querySelector('.popup__email-input');
+  const paymentMethod = donateFormElement.querySelector('input[name="payment"]:checked');
+
+  sumOfMoneyButton.forEach(function (item) {
+    if (item.classList.contains('popup__sum-of-money_active')) {
+      donateValues[item.name] = item.querySelector('.popup__sum-of-money-text').textContent;
+    }
+  });
+
+  if (!donateValues['user-own-sum']) {
+    donateValues[inputSum.name] = inputSum.value;
+  }
+
+  donateValues[userEmail.name] = userEmail.value;
+  donateValues[paymentMethod.name] = paymentMethod.value;
+
+  console.log(donateValues);
   donateFormElement.reset();
 });
 
@@ -187,3 +206,4 @@ inputSum.addEventListener("change", function (event) {
   if (this.value < 1) this.value = 1;
   else this.value;
 })
+
