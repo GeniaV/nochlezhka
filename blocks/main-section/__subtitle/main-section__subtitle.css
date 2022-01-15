@@ -1,15 +1,14 @@
 .main-section__subtitle {
+  margin: 0 0 36px;
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
-  color: white;
-  margin: 20px 0;
 }
-@media screen and (max-width: 600px) {
+
+@media (max-width: 460px) {
   .main-section__subtitle {
     font-size: 20px;
     line-height: 24px;
-    max-width: 420px;
-    margin: 10px 0 15px;
+    margin-bottom: 32px;
   }
 }
