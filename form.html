@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru" class="document">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гедонизм-фест</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
+
+<body class="page">
+	<header class="header">
+	  <div class="header__container">
+		<img src="./images/logo.svg" alt="logo" class="header__logo">
+		<div class="header__menu">
+		  <button type="button" class="header__location-button page__button">
+			<img src="./images/location.svg" alt="location" class="header__location-image">
+			<span class="header__location-button-text">Санкт-Петербург</span>
+		  </button>
+		  <nav class="header__navigation">
+			<a class="header__navigation-link page__link" href="./404-error.html">
+			  <p class="header__link-text">куда пойти</p>
+			</a>
+			<a class="header__navigation-link page__link" href="./pages/participants.html">
+			  <p class="header__link-text">стать участником</p>
+			</a>
+			<a class="header__navigation-link page__link" href="./index.html">
+			  <p class="header__link-text">о фестивале</p>
+			</a>
+		  </nav>
+		  <a class="header__link page__link" href="#" target="_blank">
+			<img src="./images/like.svg" alt="like" class="header__like-image">
+			<p class="header__link-text">хочу пойти</p>
+		  </a>
+		  <button class="header__menu-button page__button" type="button">
+			<img src="./images/menu.svg" alt="menu">
+		  </button>
+		  <button class="header__donate-button page__button" type="button">
+			<span class="header__donate-text">поддержать</span>
+		  </button>
+		</div>
+	  </div>
+	</header>
+
+<div class="popup popup_type_donate popup_opened">
+    <div class="popup__container popup__container_type_donate">
+      <button type="button" aria-label="Закрыть" class="popup__donate-close-button page__button">
+      </button>
+      <img src="./images/slider.svg" alt="слайдер" class="popup__slider">
+      <form class="popup__donate-form" name="donate" id="donate">
+        <h2 class="popup__heading">купить билет</h2>
+        <p class="popup__donate-text">сумма и количество</p>
+		<div class="popup__price-box">
+			<p class="popup__price">500 ₽</p>
+			<div class="popup__price-button">
+				<button class="price__button-minus"></button>
+				<input type="text" class="price__quantity-field" placeholder="1">
+				<button class="price__button-plus"></button>
+			</div>
+		</div>
+        <p class="popup__donate-text">email</p>
+        <input type="email" name="email" id="email" placeholder="укажите почту для отправки чека"
+          class="popup__email-input" required>
+        <p class="popup__donate-text">способ оплаты</p>
+        <fieldset class="popup__payment-method">
+          <label for="card" class="popup__payment-method-label">
+            <input type="radio" name="payment" id="card" value="банковской картой" class="popup__form-radio" checked>
+            <span class="popup__pseudo-item popup__pseudo-item_payment"></span>
+            <span>банковской картой</span>
+          </label>
+          <label for="paypal" class="popup__payment-method-label">
+            <input type="radio" name="payment" id="paypal" value="paypal" class="popup__form-radio">
+            <span class="popup__pseudo-item popup__pseudo-item_payment"></span>
+            <span>PayPal</span>
+          </label>
+        </fieldset>
+        <p class="popup__offer">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#"
+          class="popup__offer popup__offer_color_blue page__link" target="_blank">оферты</a>, <a href="#"
+          class="popup__offer popup__offer_color_blue page__link" target="_blank">политики</a> в отношении обработки
+        и защиты персональных данных и даёте <a href="#" class="popup__offer popup__offer_color_blue page__link"
+          target="_blank">согласие</a> на их обработку</p>
+      </form>
+      <button class="popup__donate-button page__button" type="submit" form="donate">
+        <span class="popup__donate-button-text">перейти к оплате</span>
+      </button>
+    </div>
+  </div>
+
+  </body>
+
+  </html>

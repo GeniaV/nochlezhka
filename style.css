@@ -1,0 +1,99 @@
+.popup__price-box {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popup__price {
+  padding: 0;
+  margin: 0;
+  font-family: TT_Firs_Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+
+  color: #7100ff;
+}
+
+@media screen and (max-width: 390px) {
+  .popup__price {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+.popup__price-button {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  max-width: 192px;
+}
+
+@media screen and (max-width: 390px) {
+  .popup__price-button {
+    height: 42px;
+    max-width: 138px;
+  }
+}
+
+.price__button-plus {
+  background-color: #7100ff;
+  background-image: url(./images/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 0px 22px 22px 0px;
+  border: none;
+}
+
+@media screen and (max-width: 390px) {
+  .price__button-plus {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+.price__quantity-field {
+  border: 2px solid #7100ff;
+  box-sizing: border-box;
+  color: #96949e;
+  max-width: 96px;
+  height: 100%;
+
+  font-family: TT Firs Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  text-align: center;
+}
+
+@media screen and (max-width: 390px) {
+  .price__quantity-field {
+    max-width: 50px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.price__button-minus {
+  background-color: #7100ff;
+  background-image: url(./images/minus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 22px 0px 0px 22px;
+}
+
+@media screen and (max-width: 390px) {
+  .price__button-minus {
+    width: 42px;
+    height: 42px;
+  }
+}
