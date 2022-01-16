@@ -13,8 +13,17 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 52px;
-
   color: #7100ff;
+}
+
+
+.popup__price::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.popup__price::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @media screen and (max-width: 767px) {
