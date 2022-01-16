@@ -53,6 +53,4 @@ popupBuyTicketForm.addEventListener("submit", (evt) => {
 	closePopup(popupBuyTicketForm);
 	popupBuyTicketForm.reset();
 
-
-
 });

@@ -86,6 +86,12 @@
 @import url(../blocks/popup/__offer/_color/_blue/popup__offer_color_blue.css);
 @import url(../blocks/popup/__pay-button/popup__pay-button.css);
 @import url(../blocks/popup/__pay-button-text/popup__pay-button-text.css);
+@import url(../blocks/popup/__price-box/popup__price-box.css);
+@import url(../blocks/popup/__price/popup__price.css);
+@import url(../blocks/popup/__count-buttons/popup__count-buttons.css);
+@import url(../blocks/popup/__count-button-plus/popup__count-button-plus.css);
+@import url(../blocks/popup/__count-total-result/popup__count-total-result.css);
+@import url(../blocks/popup/__count-button-minus/popup__count-button-minus.css);
 
 @import url(../blocks/events/events.css);
 @import url(../blocks/events/__wrapper/events__wrapper.css);
