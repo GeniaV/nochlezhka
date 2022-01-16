@@ -47,6 +47,7 @@
   height: 48px;
   border-radius: 0px 22px 22px 0px;
   border: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
@@ -89,6 +90,7 @@
   height: 48px;
   border: none;
   border-radius: 22px 0px 0px 22px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
