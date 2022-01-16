@@ -1,0 +1,18 @@
+.popup__count-button-minus {
+    background-color: #7100ff;
+    background-image: url(./images/minus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 22px 0px 0px 22px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .popup__count-button-minus {
+      width: 42px;
+      height: 42px;
+    }
+  }

@@ -78,8 +78,8 @@ const labelCity = formChangeCity.querySelectorAll('.popup__form-radio')
 const cityName = popupMenu.querySelector('.popup__city-name')
 const openDonateButtonInPopup = popupMenu.querySelector('.popup__open-donate-button')
 const openDonateButtonInHeader = document.querySelector('.header__donate-button')
-const popupDonate = document.querySelector('.popup_type_donate')
-const closeDonateButton = popupDonate.querySelector('.popup__donate-close-button')
+const popupDonate = document.querySelector('#popup__donate')
+const closeDonateButton = popupDonate.querySelector('.popup__close-button')
 const sumOfMoneyButton = popupDonate.querySelectorAll('.popup__sum-of-money')
 const inputSum = popupDonate.querySelector('.popup__sum-of-money-input')
 const header = document.querySelector('.header')
@@ -175,7 +175,7 @@ window.addEventListener('scroll', () => {
   prevScroll = curScroll;
 });
 
-const donateFormElement = document.querySelector('.popup__donate-form');
+const donateFormElement = document.querySelector('.popup__form_type_donate');
 
 donateFormElement.addEventListener('submit', (evt) => {
   evt.preventDefault();
