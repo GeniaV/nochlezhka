@@ -4,38 +4,36 @@ const popupBuyTicketForm = popupBuyTicket.querySelector('#buy-ticket') // фор
 const userEmail = popupBuyTicket.querySelector('.popup__email-input');
 const priceTicket = popupBuyTicketForm.querySelector('.popup__price');
 const quantityField = popupBuyTicketForm.querySelector('.popup__count-total-result');
-
 const plusButton = popupBuyTicketForm.querySelector('.popup__count-button-plus');
 const minusButton = popupBuyTicketForm.querySelector('.popup__count-button-minus');
+
 
 // исходные значения
 function openPopup (popup) {
 	popup.classList.add('popup_opened')
   }
 
-
 function closePopup(popup) {
 	popup.classList.remove('popup_opened')
 }
-
 
 popupBuyTicketForm.addEventListener('submit', (evt) => {
 	evt.preventDefault();
 	closePopup(popupBuyTicket);
 });
 
-
-
 minusButton.addEventListener('click', function () {
 	this.nextElementSibling.stepDown();
-
+  price.textContent = 500 * this.nextElementSibling.value + ' ₽';
 })
 
 plusButton.addEventListener('click', function () {
 	this.previousElementSibling.stepUp();
-
+  price.textContent = 500 * this.previousElementSibling.value + ' ₽';
 })
 
+const price = popupBuyTicket.querySelector('.popup__price');
+price.textContent = 500 * quantityField.value + ' ₽';
 
 popupBuyTicketForm.addEventListener("submit", (evt) => {
 	evt.preventDefault();
@@ -52,5 +50,4 @@ popupBuyTicketForm.addEventListener("submit", (evt) => {
 	console.log(requestValues);
 	closePopup(popupBuyTicketForm);
 	popupBuyTicketForm.reset();
-
 });
