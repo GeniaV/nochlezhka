@@ -33,7 +33,7 @@ plusButton.addEventListener('click', function () {
 })
 
 const price = popupBuyTicket.querySelector('.popup__price');
-price.textContent = 500 * quantityField.value + ' ₽';
+
 
 popupBuyTicketForm.addEventListener("submit", (evt) => {
 	evt.preventDefault();
@@ -51,3 +51,8 @@ popupBuyTicketForm.addEventListener("submit", (evt) => {
 	closePopup(popupBuyTicketForm);
 	popupBuyTicketForm.reset();
 });
+
+quantityField.addEventListener("change", function (event) {
+  if (this.value < 1) this.value = 1;
+  else this.value;
+})
