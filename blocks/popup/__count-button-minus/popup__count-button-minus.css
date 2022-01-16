@@ -1,6 +1,6 @@
 .popup__count-button-minus {
     background-color: #7100ff;
-    background-image: url(./images/minus.svg);
+    background-image: url(/images/minus.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 48px;
