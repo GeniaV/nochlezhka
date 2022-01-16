@@ -44,7 +44,7 @@ popupBuyTicketForm.addEventListener("submit", (evt) => {
 
 	const requestValues = {
 		countTicket: quantityField.value,
-		price: 500 * quantityField.value + '',
+		price: 500 * quantityField.value + ' ₽',
 		email: userEmail.value,
 		methodpay: payMethod.value
 	};
