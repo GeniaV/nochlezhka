@@ -17,28 +17,28 @@
   color: #7100ff;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 767px) {
   .popup__price {
     font-size: 32px;
     line-height: 36px;
   }
 }
 
-.popup__price-button {
+.popup__count-buttons {
   display: flex;
   align-items: center;
   height: 48px;
   max-width: 192px;
 }
 
-@media screen and (max-width: 390px) {
-  .popup__price-button {
+@media screen and (max-width: 767px) {
+  .popup__count-buttons {
     height: 42px;
     max-width: 138px;
   }
 }
 
-.price__button-plus {
+.popup__count-button-plus {
   background-color: #7100ff;
   background-image: url(./images/plus.svg);
   background-repeat: no-repeat;
@@ -49,14 +49,14 @@
   border: none;
 }
 
-@media screen and (max-width: 390px) {
-  .price__button-plus {
+@media screen and (max-width: 767px) {
+  .popup__count-button-plus {
     width: 42px;
     height: 42px;
   }
 }
 
-.price__quantity-field {
+.popup__count-total-result {
   border: 2px solid #7100ff;
   box-sizing: border-box;
   color: #96949e;
@@ -72,15 +72,15 @@
   text-align: center;
 }
 
-@media screen and (max-width: 390px) {
-  .price__quantity-field {
+@media screen and (max-width: 767px) {
+  .popup__count-total-result {
     max-width: 50px;
     font-size: 16px;
     line-height: 20px;
   }
 }
 
-.price__button-minus {
+.popup__count-button-minus {
   background-color: #7100ff;
   background-image: url(./images/minus.svg);
   background-repeat: no-repeat;
@@ -91,8 +91,8 @@
   border-radius: 22px 0px 0px 22px;
 }
 
-@media screen and (max-width: 390px) {
-  .price__button-minus {
+@media screen and (max-width: 767px) {
+  .popup__count-button-minus {
     width: 42px;
     height: 42px;
   }
