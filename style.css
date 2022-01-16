@@ -71,6 +71,17 @@
   line-height: 24px;
 
   text-align: center;
+  outline: none;
+}
+
+.popup__count-total-result::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.popup__count-total-result::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @media screen and (max-width: 767px) {
