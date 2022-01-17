@@ -82,6 +82,16 @@
 @import url(../blocks/popup/__count-button-plus/popup__count-button-plus.css);
 @import url(../blocks/popup/__count-total-result/popup__count-total-result.css);
 @import url(../blocks/popup/__count-button-minus/popup__count-button-minus.css);
+@import url(../blocks/popup/__slider/popup__slider.css);
+@import url(../blocks/popup/__heading/popup__heading.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__form-subtitle/popup__form-subtitle.css);
+@import url(../blocks/popup/__count-buttons/popup__count-buttons.css);
+@import url(../blocks/popup/__count-button-plus/popup__count-button-plus.css);
+@import url(../blocks/popup/__count-total-result/popup__count-total-result.css);
+@import url(../blocks/popup/__count-button-minus/popup__count-button-minus.css);
+@import url(../blocks/popup/__price-box/popup__price-box.css);
+@import url(../blocks/popup/__price/popup__price.css);
 
 
 @import url(../blocks/events/events.css);
