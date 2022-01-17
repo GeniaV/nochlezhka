@@ -1,5 +1,6 @@
 //popup ticket buy
 const popupBuyTicket = document.querySelector('#popup__buy-ticket'); // попап
+const popupCloseBtn = document.querySelector('.popup__close-button'); // кнопка закрытия попапа
 const popupBuyTicketForm = popupBuyTicket.querySelector('#buy-ticket') // форма попапа
 const userEmail = popupBuyTicket.querySelector('.popup__email-input');
 const priceTicket = popupBuyTicketForm.querySelector('.popup__price');
@@ -16,6 +17,10 @@ function openPopup (popup) {
 function closePopup(popup) {
 	popup.classList.remove('popup_opened')
 }
+
+popupCloseBtn.addEventListener('click', function () {
+	closePopup(popupBuyTicket);
+})
 
 popupBuyTicketForm.addEventListener('submit', (evt) => {
 	evt.preventDefault();
