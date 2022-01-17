@@ -3,7 +3,7 @@ const phoneReg = /\+\d \(\d{3}\) \d{3}-\d{2}-\d{2}/;
 
 document.querySelector('.form__form').addEventListener('submit', (e) => {
   let errors;
-
+p
   const formContainers = [...e.target.querySelectorAll('.form__input-container'), ...e.target.querySelectorAll('.form__labeled-container')];
 
   let formUnits = [];
@@ -84,5 +84,4 @@ const validatePhone = (field) => {
 
   return true;
 };
-
 

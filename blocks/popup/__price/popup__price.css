@@ -1,0 +1,18 @@
+.popup__price {
+    padding: 0;
+    margin: 0;
+    font-family: TT_Firs_Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+  
+    color: #7100ff;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .popup__price {
+      font-size: 32px;
+      line-height: 36px;
+    }
+  }
