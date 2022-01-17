@@ -200,6 +200,8 @@ donateFormElement.addEventListener('submit', (evt) => {
 
   console.log(donateValues);
   donateFormElement.reset();
+
+  window.location.href = '../thanks-for-help.html';
 });
 
 inputSum.addEventListener("change", function (event) {
