@@ -26,7 +26,7 @@
 @media screen and (max-width: 700px) {
     .events__cards-container {
         margin-left: 0;
-        margin-top: 28px;
+        margin-top: 20px;
     }
     .events__cards-container::-webkit-scrollbar-track {
         margin: 0 20px;
