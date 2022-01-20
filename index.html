@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Гедонизм-фест</title>
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="page">
@@ -18,7 +18,7 @@
           <span class="header__location-button-text">Санкт-Петербург</span>
         </button>
         <nav class="header__navigation">
-          <a class="header__navigation-link page__link" href="./404-error.html">
+          <a class="header__navigation-link page__link" href="./pages/404-error.html">
             <p class="header__link-text">куда пойти</p>
           </a>
           <a class="header__navigation-link page__link" href="./pages/participants.html">
@@ -42,7 +42,7 @@
     </div>
   </header>
 
-  <main class="content">
+  <main class="content_page_main">
 
     <section class="main-screen" aria-label="learn-more">
       <p class="main-screen__text">узнать больше</p>
@@ -495,15 +495,14 @@
           target="_blank">согласие</a> на их обработку</p>
       </form>
 
-      <button class="popup__pay-button page__button" type="submit" form="donate" onclick="window.open('./thanks-for-help.html')">
+      <button class="popup__pay-button page__button" type="submit" form="donate">
         <span class="popup__pay-button-text">перейти к оплате</span>
-
       </button>
     </div>
   </div>
 
-  <script src="scripts/index-2.js"></script>
-  <script src="/scripts/buyticket-1.js"></script>
+  <script src="./scripts/index.js"></script>
+  <script src="./scripts/buy-ticket.js"></script>
 </body>
 
 </html>

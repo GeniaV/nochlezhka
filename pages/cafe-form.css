@@ -25,7 +25,7 @@
 @import url(../blocks/header/__donate-text/header__donate-text.css);
 @import url(../blocks/header/_hidden/header_hidden.css);
 
-@import url(../blocks/content/content_participants.css);
+@import url(../blocks/content/_page/_participants/content_page_participants.css);
 @import url(../blocks/content/__title/content__title.css);
 @import url(../blocks/content/__title/_hideable/content__title_hideable.css);
 
