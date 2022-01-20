@@ -148,7 +148,7 @@ window.addEventListener('scroll', () => {
   curScroll = window.scrollY;
   let headerHidden = header.classList.contains('header_hidden');
 
-  if (curScroll > prevScroll && !headerHidden) {
+  if (curScroll > 180 && !headerHidden) {
     header.classList.add('header_hidden');
   } else if (curScroll < prevScroll && headerHidden) {
     header.classList.remove('header_hidden');
