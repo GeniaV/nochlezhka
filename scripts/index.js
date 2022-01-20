@@ -180,8 +180,8 @@ donateFormElement.addEventListener('submit', (evt) => {
   donateValues[userEmail.name] = userEmail.value;
   donateValues[paymentMethod.name] = paymentMethod.value;
 
-  if (window.location.pathname !== 'pages/thanks-for-help.html') {
-     window.open('pages/thanks-for-help.html');
+  if (window.location.pathname !== '/pages/thanks-for-help.html') {
+     window.open('/pages/thanks-for-help.html');
   }
 
   console.log(donateValues);
