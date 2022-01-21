@@ -92,6 +92,7 @@
 @import url(../blocks/popup/__count-button-minus/popup__count-button-minus.css);
 @import url(../blocks/popup/__price-box/popup__price-box.css);
 @import url(../blocks/popup/__price/popup__price.css);
+@import url(../blocks/popup/__wrapper/popup__wrapper.css);
 
 @import url(../blocks/events/events.css);
 @import url(../blocks/events/__wrapper/events__wrapper.css);

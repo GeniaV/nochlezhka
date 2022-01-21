@@ -20,18 +20,6 @@ function defaultButtonColor(buttons) {
   });
 }
 
-/*
-function addActiveColorButton(button) {
-  button.classList.add('hedonismfest__button_status_active');
-}
-*/
-
-/*
-function removeActiveColorButton(button) {
-  button.classList.remove('hedonismfest__button_status_active');
-}
-*/
-
 function addNonActiveColorButton(button) {
   button.classList.add('hedonismfest__button_status_non-active');
 }
@@ -40,13 +28,6 @@ function setButtonColor(button){
   defaultButtonColor(sliderButtons);
   addActiveColorButton(button);
 }
-
-
-// function initPage(button){
-//   addActiveColorButton(button);
-// }
-
-// initPage(sliderLadyButton);
 
 const popupMenu = document.querySelector('.popup_type_menu')
 const menuButton = document.querySelector('.header__menu-button')
@@ -181,7 +162,7 @@ donateFormElement.addEventListener('submit', (evt) => {
   donateValues[paymentMethod.name] = paymentMethod.value;
 
   if (window.location.pathname !== '/pages/thanks-for-help.html') {
-     window.open('/pages/thanks-for-help.html');
+    window.open('/pages/thanks-for-help.html', "_self");
   }
 
   console.log(donateValues);
