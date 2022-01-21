@@ -83,6 +83,7 @@
 @import url(../blocks/popup/__pay-button-text/popup__pay-button-text.css);
 @import url(../blocks/popup/__price-box/popup__price-box.css);
 @import url(../blocks/popup/__price/popup__price.css);
+@import url(../blocks/popup/__wrapper/popup__wrapper.css);
 @import url(../blocks/popup/__count-buttons/popup__count-buttons.css);
 @import url(../blocks/popup/__count-button-plus/popup__count-button-plus.css);
 @import url(../blocks/popup/__count-total-result/popup__count-total-result.css);
