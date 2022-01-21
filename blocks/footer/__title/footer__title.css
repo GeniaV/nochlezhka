@@ -6,6 +6,7 @@
   text-transform: lowercase;
   font-weight: 500;
   color: #3B3748;
+  letter-spacing: -0.01em;
 }
 
 @media screen and (min-width: 900px) {
@@ -13,5 +14,6 @@
     margin: 0 0 20px;
     font-size: 32px;
     line-height: 36px;
+    letter-spacing: 0;
   }
 }

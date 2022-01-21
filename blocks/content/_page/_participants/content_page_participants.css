@@ -1,4 +1,4 @@
-.content_participants {
+.content_page_participants {
   display: flex;
   flex-direction: column;
   color: #3b3748;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 980px) {
-  .content_participants {
+  .content_page_participants {
     margin: 0;
     width: auto;
   }

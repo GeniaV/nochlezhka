@@ -5,6 +5,8 @@
   object-fit: cover;
   position: absolute;
   top: 15px;
+  left: 50%;
+  transform:translate(-50%, -50%);
   align-self: center;
 }
 

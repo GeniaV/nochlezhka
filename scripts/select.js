@@ -11,7 +11,6 @@ if (select) {
   selectOptions.forEach(opt => opt.addEventListener('click', chooseOption));
   realSelect = selectField.querySelector('select');
 }
-// border: 2px solid #7100FF;
 
 function openSelect() {
   select.classList.toggle('form__select_visible');
