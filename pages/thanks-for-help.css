@@ -2,6 +2,7 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_theme/page_theme_violet.css);
 
 @import url(../blocks/document/document.css);
 

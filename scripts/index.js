@@ -192,3 +192,7 @@ inputSum.addEventListener("change", function (event) {
   if (this.value < 1) this.value = 1;
   else this.value;
 })
+
+if (window.location.pathname === '/pages/thanks-for-help.html' || window.location.pathname === '/pages/thanks-for-application.html') {
+    document.querySelector('.page').classList.add('page_theme_violet')
+}
