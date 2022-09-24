@@ -1,0 +1,13 @@
+.popup__count-buttons {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    max-width: 192px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .popup__count-buttons {
+      height: 42px;
+      max-width: 138px;
+    }
+  }

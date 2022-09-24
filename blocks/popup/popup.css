@@ -2,13 +2,20 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 0;
+  height: 100vh;
   width: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: #00000080;
   display: flex;
-  z-index: 0;
+  z-index: 2;
   overflow: hidden;
   height: 0;
   opacity: 0;
   transition: height 0s .4s linear, opacity .4s 0s linear;
+}
+
+@media screen and (max-width: 525px) {
+  .popup {
+    z-index: 0;
+    display: block;
+  }
 }

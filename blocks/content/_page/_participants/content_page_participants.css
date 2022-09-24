@@ -1,0 +1,15 @@
+.content_page_participants {
+  display: flex;
+  flex-direction: column;
+  color: #3b3748;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  .content_page_participants {
+    margin: 0;
+    width: auto;
+  }
+}
